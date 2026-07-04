@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prerana Defence Academy — Your Journey to Recommendation Starts Here</title>
+<meta name="description" content="SSB coaching, psychology practice, personal interview training and complete defence aspirant guidance from Prerana Defence Academy.">
+
+<!-- ================================================================
+     FONTS
+     - Anton: the huge condensed display font (used only for the main
+       "PRERANA DEFENCE ACADEMY" wordmark — keep it rare, it's the shout)
+     - Oswald: tracked-out uppercase labels/eyebrows and buttons
+     - Playfair Display: the italic serif quote, matches the brochure
+     - Inter: all normal body text
+     ================================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Playfair+Display:ital@1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     TOP NAV
+     Edit the links / academy name here. The mobile menu toggle
+     is handled in js/main.js (#navToggle / #navMenu).
+========================================================== -->
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a href="#top" class="brand">
+      <span class="brand-mark">PDA</span>
+      <span class="brand-name">Prerana <em>Defence</em> Academy</span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#courses">Courses</a>
+      <a href="#offer">Combo Offer</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#register" class="nav-cta">Register Now</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+     The four emblem letters (Army/Navy/AirForce/Coast Guard) are
+     just text badges here — drop real crest images into /img and
+     swap the <div class="crest"> spans for <img> tags if you want.
+========================================================== -->
+<section class="hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <div class="wrap hero-inner">
+    <div class="crests">
+      <span class="crest">🪖 Army</span>
+      <span class="crest">⚓ Navy</span>
+      <span class="crest">✈ Air Force</span>
+      <span class="crest">🛟 Coast Guard</span>
+    </div>
+
+    <p class="eyebrow">Official Defence Aspirant Program</p>
+    <h1 class="hero-title">PRERANA<br><span class="accent">DEFENCE</span><br>ACADEMY</h1>
+    <p class="hero-quote">&ldquo;Your Journey to Recommendation Starts Here&rdquo;</p>
+
+    <div class="hero-actions">
+      <a href="#register" class="btn btn-gold">Start Your Journey</a>
+      <a href="#courses" class="btn btn-outline">See All Courses</a>
+    </div>
+
+    <!-- Stat strip, straight from the brochure cover -->
+    <div class="stat-strip">
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Specialised Courses</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Personalised Feedback</span></div>
+      <div class="stat"><span class="stat-num">SSB</span><span class="stat-label">Complete Guidance</span></div>
+      <div class="stat"><span class="stat-num">₹300</span><span class="stat-label">Starting Fee</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SIGNATURE ELEMENT — THE ROADMAP
+     A single horizontal timeline of the real SSB journey your
+     courses map onto: Screening → Psychology → GTO → Interview →
+     Conference. This is the one "big idea" visual for the page.
+========================================================== -->
+<section class="roadmap" aria-label="The SSB journey">
+  <div class="wrap">
+    <p class="eyebrow eyebrow-light">The Road To Recommendation</p>
+    <div class="roadmap-track">
+      <div class="stop"><span class="stop-index">01</span><span class="stop-label">Screening<br><small>OIR + PPDT</small></span></div>
+      <div class="stop"><span class="stop-index">02</span><span class="stop-label">Psychology<br><small>TAT · WAT · SRT</small></span></div>
+      <div class="stop"><span class="stop-index">03</span><span class="stop-label">GTO Tasks<br><small>Group Testing</small></span></div>
+      <div class="stop"><span class="stop-index">04</span><span class="stop-label">Interview<br><small>PIQ + Rapid Fire</small></span></div>
+      <div class="stop stop-final"><span class="stop-index">05</span><span class="stop-label">Conference<br><small>Recommendation</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     COURSES
+     Each .course-card is one course from the brochure. To add a
+     new course: copy a whole <article class="course-card">...
+     </article> block, change the numbers, text and price.
+     data-fee is in RUPEES (not paise) — the checkout script
+     converts it automatically.
+========================================================== -->
+<section class="section" id="courses">
+  <div class="wrap">
+    <p class="eyebrow">Training Programs</p>
+    <h2 class="section-title">Our Courses</h2>
+
+    <div class="course-grid">
+
+      <article class="course-card" data-course="Prerana Screen-In Batch" data-fee="300">
+        <div class="course-head">
+          <span class="course-num">Course 01</span>
+          <h3>Prerana Screen-In Batch</h3>
+          <div class="course-meta"><span>Duration <strong>8 Days</strong></span><span>Fee <strong>₹300</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>OIR Test Preparation</li>
+          <li>PPDT Story Writing Practice</li>
+          <li>Narration Techniques</li>
+          <li>Group Discussion Training</li>
+          <li>Screening Strategies</li>
+          <li>Individual Performance Feedback</li>
+        </ul>
+        <div class="course-materials">
+          <span>OIR Practice Booklet</span><span>PPDT Story Collection</span><span>Screening Note</span><span>Narration Framework</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹300</button>
+      </article>
+
+      <article class="course-card" data-course="Prerana Alpha Practice Batch" data-fee="450">
+        <div class="course-head">
+          <span class="course-num">Course 02</span>
+          <h3>Prerana Alpha Practice Batch</h3>
+          <div class="course-meta"><span>Duration <strong>12 Days</strong></span><span>Fee <strong>₹450</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>100+ TAT Practice Sessions</li>
+          <li>100+ WAT Practice Sessions</li>
+          <li>60+ SRT Discussions</li>
+          <li>Self Description Practice</li>
+          <li>Psychology Analysis</li>
+          <li>Daily Performance Tracking</li>
+        </ul>
+        <div class="course-materials">
+          <span>TAT Workbook</span><span>WAT Master Sheet</span><span>SRT Compilation</span><span>Psychology Notes</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹450</button>
+      </article>
+
+      <article class="course-card" data-course="Personal Interview Batch" data-fee="500">
+        <div class="course-head">
+          <span class="course-num">Course 03</span>
+          <h3>Personal Interview Batch</h3>
+          <div class="course-meta"><span>Duration <strong>5 Days</strong></span><span>Fee <strong>₹500</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>PIQ Analysis</li>
+          <li>Interview Techniques</li>
+          <li>Rapid Fire Questions</li>
+          <li>Communication Skills</li>
+          <li>Officer Like Qualities Development</li>
+          <li>Personalised Assessment</li>
+        </ul>
+        <div class="course-materials">
+          <span>PIQ Guide</span><span>300+ Interview Questions</span><span>Rapid Fire Material</span><span>Interview Notes</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹500</button>
+      </article>
+
+      <article class="course-card" data-course="Personal Mock Interview" data-fee="400">
+        <div class="course-head">
+          <span class="course-num">Course 04</span>
+          <h3>Personal Mock Interview</h3>
+          <div class="course-meta"><span>Duration <strong>1+ Hour</strong></span><span>Fee <strong>₹400</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>1-on-1 Interview (1+ Hour)</li>
+          <li>Detailed Feedback Report Card</li>
+          <li>Strength &amp; Weakness Analysis</li>
+          <li>Personalised Improvement Plan</li>
+          <li>Individual Mentor Guidance</li>
+        </ul>
+        <div class="course-materials">
+          <span>Performance Report</span><span>Improvement Checklist</span><span>Question Bank</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹400</button>
+      </article>
+
+      <article class="course-card" data-course="Psychology Practice Batch" data-fee="">
+        <div class="course-head">
+          <span class="course-num">Course 05</span>
+          <h3>Psychology Practice Batch</h3>
+          <div class="course-meta"><span>Duration <strong>10 Days</strong></span><span>Fee <strong>Contact Us</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>TAT Practice</li>
+          <li>WAT Practice</li>
+          <li>SRT Solving Sessions</li>
+          <li>Self Description Writing</li>
+          <li>2 Psych Real Dossier Tests + Individual Feedback</li>
+        </ul>
+        <div class="course-materials">
+          <span>TAT Story Collection</span><span>WAT Practice Booklet</span><span>SRT Handbook</span><span>SD Workbook</span>
+        </div>
+        <a href="#register" class="btn btn-outline btn-block">Ask About Pricing</a>
+      </article>
+
+      <article class="course-card" data-course="SSB Full Guidance Workshop" data-fee="750">
+        <div class="course-head">
+          <span class="course-num">Course 06</span>
+          <h3>SSB Full Guidance Workshop</h3>
+          <div class="course-meta"><span>Fee <strong>₹750</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>Complete SSB Roadmap</li>
+          <li>Screening + Psychology Training</li>
+          <li>GTO Understanding</li>
+          <li>Personal Interview Preparation</li>
+          <li>OLQ Development Sessions</li>
+          <li>Personalised Mentorship + Doubt Solving</li>
+        </ul>
+        <div class="course-materials">
+          <span>Complete SSB Notes</span><span>GTO Handbook</span><span>Interview Question Bank</span><span>OLQ Guide</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹750</button>
+      </article>
+
+      <article class="course-card" data-course="Spoken English Bootcamp" data-fee="499">
+        <div class="course-head">
+          <span class="course-num">Course 07</span>
+          <h3>Spoken English Bootcamp</h3>
+          <div class="course-meta"><span>Duration <strong>2 Months</strong></span><span>Fee <strong>₹499</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>Daily Speaking Practice</li>
+          <li>Vocabulary Development</li>
+          <li>Public Speaking Activities</li>
+          <li>Fluency Improvement</li>
+          <li>Confidence Building</li>
+        </ul>
+        <div class="course-materials">
+          <span>Vocabulary Handbook</span><span>Daily Speaking Tasks</span><span>Conversation Sheets</span><span>Public Speaking Notes</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹499</button>
+      </article>
+
+      <article class="course-card" data-course="Personality Development Bootcamp" data-fee="400">
+        <div class="course-head">
+          <span class="course-num">Course 08</span>
+          <h3>Personality Development Bootcamp</h3>
+          <div class="course-meta"><span>Duration <strong>2 Months</strong></span><span>Fee <strong>₹400</strong></span></div>
+        </div>
+        <ul class="course-features">
+          <li>Leadership Development</li>
+          <li>Communication Skills</li>
+          <li>Group Discussion Practice</li>
+          <li>Interview Grooming</li>
+          <li>Confidence Building</li>
+        </ul>
+        <div class="course-materials">
+          <span>PD Workbook</span><span>Leadership Notes</span><span>Communication Guide</span><span>GD Handbook</span>
+        </div>
+        <button class="btn btn-gold btn-block enroll-btn">Enroll — ₹400</button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     COMBO OFFER — gold banner block
+========================================================== -->
+<section class="offer" id="offer">
+  <div class="wrap offer-inner">
+    <p class="eyebrow eyebrow-dark">Limited Special Offer</p>
+    <h2>Spoken English + Personality Development</h2>
+    <p class="offer-tags">Communication · Leadership · Public Speaking · Confidence</p>
+    <div class="offer-price">
+      <span class="strike">₹899 actual price</span>
+      <span class="price">₹750</span>
+    </div>
+    <p class="offer-save">Save ₹149 on the Combo</p>
+    <button class="btn btn-dark enroll-btn" data-course="Spoken English + Personality Development Combo" data-fee="750">Claim Combo Offer</button>
+  </div>
+</section>
+
+<!-- =========================================================
+     WHY CHOOSE US
+========================================================== -->
+<section class="section section-dark" id="why-us">
+  <div class="wrap">
+    <p class="eyebrow eyebrow-light">The Prerana Advantage</p>
+    <h2 class="section-title light">Why Choose Us?</h2>
+
+    <div class="feature-grid">
+      <div class="feature"><span class="feature-icon">₹</span><h3>Affordable Fees</h3><p>Premium SSB guidance starting at just ₹300 — world-class mentorship without the weight on your wallet.</p></div>
+      <div class="feature"><span class="feature-icon">◎</span><h3>Personalised Mentorship</h3><p>Every student gets dedicated attention. No batch gets left behind — your growth is our priority.</p></div>
+      <div class="feature"><span class="feature-icon">✦</span><h3>Detailed Feedback</h3><p>Not just marks — comprehensive written and verbal feedback reports after every session.</p></div>
+      <div class="feature"><span class="feature-icon">⬡</span><h3>Student-Focused</h3><p>Curriculum built around the aspirant's needs, not a rigid template. Flexible, adaptive, effective.</p></div>
+      <div class="feature"><span class="feature-icon">📊</span><h3>Performance Tracking</h3><p>Daily and session-wise tracking of your improvement across all SSB parameters.</p></div>
+      <div class="feature"><span class="feature-icon">↻</span><h3>Regular Practice</h3><p>Consistent daily practice sessions build the habit of thinking and performing like an officer.</p></div>
+      <div class="feature"><span class="feature-icon">★</span><h3>Experienced Mentors</h3><p>Guided by mentors with real SSB experience who know exactly what assessors look for.</p></div>
+      <div class="feature"><span class="feature-icon">🛡</span><h3>Complete SSB Support</h3><p>From Screening to the Conference — we stand with you at every stage of your SSB journey.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FEEDBACK — replace these with your real testimonials.
+     (Kept as plain text quotes rather than reproducing chat
+     screenshots — swap in real names/quotes any time.)
+========================================================== -->
+<section class="section" id="feedback">
+  <div class="wrap">
+    <p class="eyebrow">What Our Students Say</p>
+    <h2 class="section-title">Student Feedback</h2>
+
+    <div class="testimonial-grid">
+      <blockquote class="testimonial">
+        <p>“The sessions were incredibly useful for our preparation — the guidance felt personal, not generic.”</p>
+        <cite>— Psychology Batch student</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>“This was the first time I had proper guidance for SSB. I finally feel like I have the right mentor.”</p>
+        <cite>— SSB Batch student</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>“The mock interview helped me see exactly where I hesitate and where my answers need more clarity.”</p>
+        <cite>— Mock Interview student</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     REGISTRATION / CONTACT FORM
+     Submits to POST /api/register on the backend. If a course
+     was chosen via an "Enroll" button, its name/fee are filled
+     in automatically by js/main.js.
+========================================================== -->
+<section class="section section-dark" id="register">
+  <div class="wrap register-wrap">
+    <div class="register-copy">
+      <p class="eyebrow eyebrow-light">Take The First Step</p>
+      <h2 class="section-title light">Register Now</h2>
+      <p>Fill this in and we'll reach out on WhatsApp to confirm your batch. Paid courses move to secure checkout after you submit.</p>
+
+      <div class="contact-block">
+        <p>📨 Telegram — <a href="https://t.me/defencewarriorofficial" target="_blank" rel="noopener">@defencewarriorofficial</a></p>
+        <p>💬 WhatsApp — <a href="https://wa.me/919123045385" target="_blank" rel="noopener">+91 91230 45385</a></p>
+      </div>
+    </div>
+
+    <form id="registerForm" class="register-form" novalidate>
+      <label>Full Name
+        <input type="text" name="name" required placeholder="Your full name">
+      </label>
+      <label>Phone / WhatsApp Number
+        <input type="tel" name="phone" required placeholder="10-digit mobile number" pattern="[0-9]{10}">
+      </label>
+      <label>Email
+        <input type="email" name="email" required placeholder="you@example.com">
+      </label>
+      <label>Course
+        <select name="course" id="courseSelect" required>
+          <option value="" disabled selected>Select a course</option>
+          <option data-fee="300">Prerana Screen-In Batch — ₹300</option>
+          <option data-fee="450">Prerana Alpha Practice Batch — ₹450</option>
+          <option data-fee="500">Personal Interview Batch — ₹500</option>
+          <option data-fee="400">Personal Mock Interview — ₹400</option>
+          <option data-fee="">Psychology Practice Batch — Contact Us</option>
+          <option data-fee="750">SSB Full Guidance Workshop — ₹750</option>
+          <option data-fee="499">Spoken English Bootcamp — ₹499</option>
+          <option data-fee="400">Personality Development Bootcamp — ₹400</option>
+          <option data-fee="750">Combo: Spoken English + Personality Development — ₹750</option>
+        </select>
+      </label>
+      <label>Message (optional)
+        <textarea name="message" rows="3" placeholder="Anything you'd like us to know"></textarea>
+      </label>
+
+      <input type="hidden" name="fee" id="feeField" value="">
+
+      <button type="submit" class="btn btn-gold btn-block" id="registerSubmit">Submit &amp; Continue</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================== -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-brand">PRERANA <span class="accent">DEFENCE</span> ACADEMY</p>
+      <p class="footer-tagline">"Practice · Improve · Recommend"</p>
+    </div>
+    <div class="footer-links">
+      <p>Telegram: <a href="https://t.me/defencewarriorofficial" target="_blank" rel="noopener">@defencewarriorofficial</a></p>
+      <p>WhatsApp: <a href="https://wa.me/919123045385" target="_blank" rel="noopener">+91 91230 45385</a></p>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Prerana Defence Academy. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Razorpay checkout script (client-side widget only — order creation happens on our own server) -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

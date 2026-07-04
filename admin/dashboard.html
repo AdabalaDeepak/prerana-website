@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrations — Prerana Defence Academy Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+  <header class="admin-header">
+    <h1>PDA Admin — Registrations</h1>
+    <div>
+      <button id="refreshBtn" class="btn btn-ghost">Refresh</button>
+      <button id="logoutBtn" class="btn btn-ghost">Log Out</button>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <div class="summary" id="summary"></div>
+
+    <div class="table-wrap">
+      <table id="regTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Fee</th>
+            <th>Payment</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody id="regBody">
+          <tr><td colspan="8">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login — Prerana Defence Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body login-body">
+  <form id="loginForm" class="login-card">
+    <h1>PDA Admin</h1>
+    <p class="sub">Sign in to view registrations</p>
+
+    <label>Username
+      <input type="text" name="username" required autocomplete="username">
+    </label>
+    <label>Password
+      <input type="password" name="password" required autocomplete="current-password">
+    </label>
+
+    <button type="submit" class="btn">Log In</button>
+    <p class="error" id="loginError"></p>
+  </form>
+
+  <script src="admin.js"></script>
+</body>
+</html>
